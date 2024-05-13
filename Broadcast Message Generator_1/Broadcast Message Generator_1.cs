@@ -142,6 +142,7 @@ public class Screen : Dialog
 		// Init widgets
 		TitleText = new TextBox();
 		Message = new TextBox();
+  		Message.IsMultiline = true;
 		Date = new DateTimePicker(DateTime.Now);
 
 		//// Define layout
